@@ -1,0 +1,48 @@
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj4ImSMrTKEfFwSyFH80xtk2SZvGU_kb274Q&s");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+input {
+    margin: 10px;
+    padding: 8px;
+}
+
+button {
+    background-color: black;
+    color: whitesmoke;
+    border: 20px;
+    padding: 15px 15px;
+    margin: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: cadetblue;
+}
+
+.result {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: white;
+    border : 3px solid grey;
+    border-radius: 80px;
+    width: 200px;
+    height: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 10px;
+    color: brown;
+}
